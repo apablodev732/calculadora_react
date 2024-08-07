@@ -13,6 +13,8 @@ export function IndexCalculadora() {
                     <Boton>2</Boton>
                     <Boton>2</Boton>
                     <Boton>2</Boton>
+                    <Boton>2</Boton>
+
 
                 </div>   
                 <div className="bloqBotonClear"><BotonClear>Limpiar</BotonClear></div>     
