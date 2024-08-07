@@ -13,11 +13,9 @@ export function IndexCalculadora() {
                     <Boton>2</Boton>
                     <Boton>2</Boton>
                     <Boton>2</Boton>
-<<<<<<< HEAD
                     <Boton>2</Boton>
 
-=======
->>>>>>> 64c2911fef5ac16bf117565549e5e626798f2650
+
 
                 </div>   
                 <div className="bloqBotonClear"><BotonClear>Limpiar</BotonClear></div>     
