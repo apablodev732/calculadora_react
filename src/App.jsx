@@ -1,7 +1,9 @@
-import { Index_ini } from './components/intro/Index';
+//import { Index_ini } from './components/intro/Index';
+import { IndexCalculadora } from './components/Calculadora/Index';
+
 function App() {
   return (
-    <div><Index_ini/></div>
+    <div><IndexCalculadora/></div>
   )
 }
 export default App

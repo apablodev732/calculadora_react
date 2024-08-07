@@ -1,0 +1,7 @@
+.bloqGeneral{ display: flex;flex-direction: column; justify-content: center; height: 100%; align-items: center;}
+.bloqCalculadora{ display: flex; flex-direction: column; justify-content: center; width: 50%; margin: 0 auto; height: 400px; align-items: center; background-color: #ccc;}
+
+.bloqPantalla{ width: 90%; background-color: #87b5e9;}
+.bloqBotones{ width: 90%; background-color: #aaf1f1;}
+
+
