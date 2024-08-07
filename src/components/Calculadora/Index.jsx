@@ -3,6 +3,7 @@ import '../../styles/index.css'
 import { Boton } from'./Components/Boton/Boton'
 import { BotonClear } from'./Components/BotonClear/BotonClear'
 import { Pantalla } from'./Components/Pantalla/Pantalla'
+import { evaluate } from 'mathjs'
 
 export function IndexCalculadora() {
     const[input, setInput] = useState('');
@@ -12,6 +13,16 @@ export function IndexCalculadora() {
     const clearPantalla = () =>{
         setInput('');
     }
+
+    const calcularOperacion = () =>{
+        if(input){
+            setInput(evaluate(input));
+        }else{
+            alert('No hay numero')
+        }
+    }
+
+
     return (
         <div className="bloqGeneral">
             <div className="bloqCalculadora">
@@ -41,7 +52,7 @@ export function IndexCalculadora() {
                     <div className="filaBotones">
                     <Boton manejarClic={agregarInput}>0</Boton>
                     <Boton manejarClic={agregarInput}>.</Boton>
-                    <Boton manejarClic={agregarInput}>=</Boton>
+                    <Boton manejarClic={calcularOperacion}>=</Boton>
                     <Boton manejarClic={agregarInput}>/</Boton>
                     </div>
 
