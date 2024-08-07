@@ -1,7 +1,26 @@
 .bloqGeneral{ display: flex;flex-direction: column; justify-content: center; height: 100%; align-items: center;}
-.bloqCalculadora{ display: flex; flex-direction: column; justify-content: center; width: 50%; margin: 0 auto; height: 400px; align-items: center; background-color: #ccc;}
+.bloqCalculadora{ display: flex; flex-direction: column; justify-content: center; width: 50%; margin: 0 auto; height: 400px; align-items: center; background-color: #e4e3e3;}
 
-.bloqPantalla{ width: 90%; background-color: #87b5e9;}
-.bloqBotones{ width: 90%; background-color: #aaf1f1;}
+.bloqPantalla{ width: 90%; background-color: #87b5e9; height: 50px;}
+.numPantalla{text-align: right; width: 90%; margin: 2% 3%; font-size: 30px; }
+.bloqBotones{ width: 100%; display: flex; flex-direction: column; justify-content: center;}
 
+.filaBotones{width: 90%;  margin: 1% auto; display: flex;  justify-content: center;  }
+
+.bloqBoton{ width: 22%; margin: 0 1%; background-color: #aaf1f1;justify-content: center;  height: auto; align-items: center;border: 1px solid #03bdbd; text-align: center; font-size: 28px; cursor: pointer;}
+
+.operador{
+    background-color: #358afa;
+    border: 1px solid #0347bd;
+    color: #fff;
+
+}
+
+
+.bloqBoton :active{
+    transform: scale(.9,.9);
+}
+.bloqBoton:hover{
+    background-color: #87b5e9;
+}
 
